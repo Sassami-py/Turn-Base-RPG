@@ -1,2 +1,6 @@
-# Turn-Base-RPG
-A study of turn-based combat in RPGs, written in Python.
+Started to learning Python on January 16th. Since then, I learned how to fix issues. Today I was thinking: some companies need system that trigger when conditions are met. So, I decided to learn how to do a conditional system. I started with a simple code made in colab to see when I made mistakes.
+First, I made a simple code with big blocksof lines, but i saw a little mistake: the systema of defense was not working. So I took this system and created a variable, the 'State', that checks when someone has defense activated.
+After that, I looked at my code and satrted, but the system of turns was broken: Every time, it froze on one player. So, I tried to remake the code putting a new 'if' inside every 'if', in other wrods, infinity 'ifs'.But this made the code bigger than it needs to be, so I was looking for a way to fix it. So, I created an Order system. it's symple, but I needed a library, I took 'random' for this case, to create a randomizer.
+Well, with that, i started a new line and deleted all old lines, making a system that, in randomized order, decides if it's the player's turn.
+After that, I implemented a system of attack too, that has a chance of a critical hit with random (random.randint(Att1,Att2)).
+In the end, i tried it and worked! Now im looking for ways yo make the code clean and easier to read.
